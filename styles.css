@@ -1,0 +1,78 @@
+/* Tipografía General  */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezados y parrafos */
+h1, h2, h3{
+    font-weight: bold;
+    color: #2e3e50;
+}
+
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.5rem;}
+p{font-size: 1em;}
+
+/* Imagen */
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Enlaces */
+a{
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol{
+    margin-left: 40px;
+    padding-left: 0;
+}
+
+/* Tabla */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+td, th{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+th{
+    background-color: #3b6d8f;
+    color: white;
+}
+
+/* Formulario */
+input, button{
+    padding: 8px;
+    display: block;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+button{
+    background-color: #3b6d8f;
+    border: 0;
+    color: white;
+
+}
+
+button:hover{
+    background-color: #2ecc71;
+    color: black;
+    cursor: pointer;
+}
