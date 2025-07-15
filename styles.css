@@ -1,8 +1,8 @@
 /* Tipografía General  */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    background-color: #f9f9f9;
+    color: white;
+    background-color: rgb(36, 34, 34);
     margin: 0;
     padding: 20px;
 }
@@ -10,10 +10,10 @@ body{
 /* Encabezados y parrafos */
 h1, h2, h3{
     font-weight: bold;
-    color: #2e3e50;
+    color: #FF8C00;
 }
 
-h1{font-size: 2.5rem;}
+h1{font-size: 2.8rem;}
 h2{font-size: 2rem;}
 h3{font-size: 1.5rem;}
 p{font-size: 1em;}
@@ -23,12 +23,17 @@ img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
+    margin: auto;
 }
 
 /* Enlaces */
 a{
     color: #2980b9;
     text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    margin-left: 20px;
 }
 a:hover{
     text-decoration: underline;
@@ -42,6 +47,8 @@ ul, ol{
 
 /* Tabla */
 table{
+    background-color: white;
+    color: black;
     border-collapse: collapse;
     width: 100%;
     text-align: center;
@@ -51,7 +58,7 @@ td, th{
     padding: 5px;
 }
 th{
-    background-color: #3b6d8f;
+    background-color: #91530F;
     color: white;
 }
 
@@ -64,15 +71,15 @@ input, button{
     margin-bottom: 5px;
     box-sizing: border-box;
 }
-button{
-    background-color: #3b6d8f;
+.boton{
+    background-color: #91530F;
     border: 0;
     color: white;
 
 }
 
-button:hover{
-    background-color: #2ecc71;
+.boton:hover{
+    background-color: #583d09;
     color: black;
     cursor: pointer;
 }
